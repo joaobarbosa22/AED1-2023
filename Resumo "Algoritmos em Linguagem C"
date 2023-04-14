@@ -1,0 +1,67 @@
+Aluno: João Pedro Raymundo Barbosa
+Resumo do livro “Algoritmos em Linguagem C”, de Paulo Feofiloff.
+Um dos primeiros tópicos do livro fala sobre a documentação de um código, que
+deve seguir uma determinada coerência no momento dos comentários, priorizando mostrar
+à quem lê o código os resultados esperados daquela determinada aplicação, e não explicar
+cada linha de código, evitando ao máximo sujar o código de informações, limita-se a
+explicar o que cada uma das funções que compõem o programa faz. Busca colocar nas
+mãos do leitor as condições necessárias para detectar os erros que o autor da função tenha
+porventura cometido.
+Fala sobre recursão (introduz o conceito por meio de um exemplo simples). Um
+programa tem estrutura recursiva quando cada instância do problema contém uma instância
+menor do mesmo problema. Para problemas nesse estilo é necessário aplicar um
+determinado método:
+Se a instância em questão é pequena, resolva-a diretamente (use força bruta se
+necessário); senão, reduza-a a uma instância menor do mesmo problema, aplique o método
+à instância menor e volte à instância original. - A aplicação deste método produz um
+algoritmo recursivo. O capítulo apresenta também o processo para verificação da função
+recursiva: - Escreva o que a função deve fazer
+
+- Verifique se a função de fato faz o que deveria quando n é pequeno
+- Imagine que n é grande e suponha que a função fará a coisa certa se no
+lugar de n tivermos algo menor que n.
+Trata sobre vetores: uma estrutura de dados que armazena uma sequência de
+objetos, todos do mesmo tipo, e posições consecutivas de memória. O capítulo estuda os
+problemas de procurar um objeto em um vetor, de inserir um novo objeto no vetor e de
+remover o elemento do vetor. Os problemas servem de pretexto para ilustrar os conceitos
+de correção, eficiência e elegância de algoritmos.
+Trata de Lista encadeada: Uma lista encadeada é uma representação de uma
+sequência de objetos na memória do computador. Cada elemento da sequência é
+armazenado em uma célula da lista. As células que armazenam elementos consecutivos da
+sequência não ficam necessariamente em posições consecutivas da memória.
+Trata de Filas: Uma sequência dinâmica, isto é, uma sequência da qual elementos
+podem ser removidos e na qual novos elementos podem ser inseridos. Mais
+especificamente, uma fila é uma sequência de objetos, todos do mesmo tipo, sujeita às
+seguintes regras de comportamento: (1) sempre que solicitamos a remoção de um
+elemento, o elemento removido é o primeiro da sequência e (2) sempre que solicitamos a
+inserção de um novo objeto, o objeto é inserido no fim da sequência.
+O comportamento de uma fila pode ser resumido na frase: o elemento removido da
+fila é sempre o que está lá há mais tempo. Outra maneira de dizer isso: o primeiro objeto
+inserido na fila é também o primeiro a ser removido. Esta política é conhecida pela
+abreviatura FIFO da expressão First-In-First-Out.
+Trata de Pilhas: é uma sequência dinâmica, isto é, uma sequência da qual
+elementos podem ser removidos e na qual novos elementos podem ser inseridos. Mais
+
+especificamente, uma pilha é uma sequência de objetos, todos do mesmo tipo, sujeita às
+seguintes regras de comportamento: (1) sempre solicitamos a remoção de um elemento, o
+elemento removido é o último da sequência e (2) sempre que solicitamos a inserção de um
+objeto, o objeto é inserido no fim da sequência. LIFO Last-In-First-Out.
+Trata da Busca de vetor ordenado: Este capítulo estuda o problema de encontrar um
+dado inteiro em um dado vetor ordenado. Mais precisamente, dado um inteiro x e um vetor
+crescente v[0..n-1], queremos encontrar um índice m tal que v[m] = x.
+Trata de Ordenação: algoritmos elementares. Colocar um vetor numérico em ordem
+crescente é o primeiro passo para solução de muitos problemas práticos. Um vetor pode ser
+ordenado de muitas maneiras diferentes: algumas elementares, outras mais sofisticadas e
+eficientes. Assim, o problema da ordenação é um verdadeiro laboratório de projeto de
+algoritmos. Trataremos do assunto neste capítulo e nos três capítulos seguintes.
+O livro trata de problemas básicos da computação( busca binária, ordenação de
+vetores, busca de palavras em texto, manipulação de listas encadeadas, manipulação de
+árvores binárias etc) bem como as correspondentes estruturas de dados, e isso descreve a
+relação que o livro tem com nosso curso de Algoritmos e Estruturas de Dados.
+De extrema importância para a carreira profissional, para desenvolver os
+fundamentos de algoritmos e na resolução de problemas básicos da computação, que
+podem ser utilizados em diversos momentos. (assim como a elegância do código, da qual o
+livro trata).
+Ensina como projetar algoritmos básicos, e implementá-los em C de maneira
+simples, com diversas formas de resolver o mesmo problema, é uma evolução do curso de
+lógica de programação em python.
